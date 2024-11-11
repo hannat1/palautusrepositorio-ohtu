@@ -9,9 +9,12 @@ def main():
         player = Player(player_dict)
         if player.nationality == 'FIN':
             players.append(player)
+
+    pistejärkkä = sorted(players, key=lambda player: player.total_points, reverse=True)
+
     print("Players from FIN:")
 
-    for player in players:
+    for player in pistejärkkä:
         print(player)
 
 if __name__ == "__main__":
