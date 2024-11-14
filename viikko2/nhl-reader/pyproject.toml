@@ -7,6 +7,10 @@ authors = ["Your Name <you@example.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 requests = "^2.32.3"
+<<<<<<< HEAD
+=======
+rich = "^13.9.4"
+>>>>>>> main
 
 
 [build-system]
